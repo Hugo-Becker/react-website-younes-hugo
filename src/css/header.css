@@ -1,5 +1,33 @@
-/* header{
-    background-image: url('../img/images/banner.jpg');
-    height: 100vh;
-    background-repeat: no-repeat;
-} */
+
+
+
+
+.link{
+    color: white;
+    text-decoration: none;
+    
+    padding: 5px 10px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 1s;
+    font-family: 'Yusei Magic', sans-serif;
+    padding-bottom: 8px !important;
+
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    box-shadow: 5px 5px 14px 5px #000000;
+}
+
+.brand{
+    color: white;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+.brand:hover{
+    text-decoration: none;
+    color: chocolate;
+}
