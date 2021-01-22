@@ -2,8 +2,12 @@ import React,{ useState } from 'react'
 import Article from './composants/Article'
 
 
-import Apple from '../img/apple.jpeg'
-import Cat from '../img/cat-icon.png'
+// import Apple from '../img/apple.jpeg'
+// import Cat from '../img/cat-icon.png'
+import Pic1 from '../img/images/pic01.jpg'
+import Pic2 from '../img/images/pic02.jpg'
+
+
 
 
 
@@ -21,8 +25,8 @@ export const Section = () => {
     return (
         <div className='section'>
             
-            <Article imgArticle={Cat}titreArticle={articleContent[0].titreArticle} texteArticle={articleContent[0].texteArticle}></Article>
-            <Article imgArticle ={Apple}titreArticle={articleContent[1].titreArticle} texteArticle={articleContent[1].texteArticle}></Article>    
+            <Article imgArticle={Pic1}titreArticle={articleContent[0].titreArticle} texteArticle={articleContent[0].texteArticle}></Article>
+            <Article imgArticle ={Pic2}titreArticle={articleContent[1].titreArticle} texteArticle={articleContent[1].texteArticle}></Article>    
             
         </div>
     )
