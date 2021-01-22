@@ -6,6 +6,7 @@ import Article from './composants/Article'
 // import Cat from '../img/cat-icon.png'
 import Pic1 from '../img/images/pic01.jpg'
 import Pic2 from '../img/images/pic02.jpg'
+import '../css/section.css';
 
 
 
