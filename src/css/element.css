@@ -1,0 +1,40 @@
+:root{
+    --dark:rgb(53, 53, 53);
+    --gray:rgb(138, 138, 138);
+    --lighter:rgb(170, 170, 170);
+}
+
+.elements{
+    margin: 0 10%;
+}
+.elements p{
+    line-height: 30px;
+}
+.elements .ele-sct-1 .titre{
+    margin-top: 13vh;
+    text-align: center;
+}
+.elements .ele-sct-1 h1{
+    color:var(--dark);
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.elements .ele-sct-1 p{
+    color: var(--lighter);
+}
+.elements .ele-sct-2 h3{
+    color:var(--dark);
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+.elements .ele-sct-2 p{
+    color: var(--lighter);
+}
+
+.elements .ele-sct-2 h3{
+    margin: 20px 0;
+}
+
+.elements .ele-sct-3{
+    flex-direction: column;
+}
