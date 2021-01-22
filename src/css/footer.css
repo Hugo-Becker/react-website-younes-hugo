@@ -1,4 +1,103 @@
 .footer{
-    height: 80vh;
+    margin-top:70px ;
+    /* height: 80vh; */
     background-color:#6CC091;
+}
+.footer-container{
+    margin: 0 10%;
+}
+.footer h3{
+    text-align: center;
+    color: white;
+    padding-top: 100px ;
+    padding-bottom: 60px; ;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+.footer .half{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    /* margin-right: 20px; */
+
+}
+.footer label{
+    color:white;
+    margin-bottom: 20px;
+}
+.footer input{
+    border:rgba(255, 255, 255, 0.274) solid 2px;
+    border-radius: 10px;
+    background-color:#6CC091 ;
+    padding: .5rem 0;
+    color: white;
+    padding-left:20px;
+    box-sizing: border-box;
+
+}
+.footer input:focus{
+    outline: none;
+    text-decoration: none;
+    border:#57b680 solid 2px;
+
+}
+
+.footer input::placeholder, .footer textarea::placeholder{
+    color: rgba(255, 255, 255, 0.274);
+    /* padding-left: 5%; */
+}
+
+.message{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 100%;
+
+}
+.message textarea{
+    width: 100%;
+    border:rgba(255, 255, 255, 0.274) solid 2px;
+    border-radius: 10px;
+    background-color:#6CC091 ;
+    padding: .5rem 0;
+    color: white;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+.message textarea:focus{
+    outline: none;
+    text-decoration: none;
+    border:#57b680 solid 2px;
+
+}
+.footer button{
+    margin: auto;
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    border: white solid 3px;
+    border-radius: 30px;
+    color: white;
+    background-color:#6CC091  ;
+    padding: 0.5rem 2rem;
+    transition: all ease 0.2s;
+}
+.footer button:hover{
+    background-color:#80dba73a  ;
+
+
+}
+
+.footer p{
+    color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+    padding-bottom: 100px;
 }
