@@ -1,0 +1,75 @@
+#generic{
+    background-color :#20bf55;
+    background-image :linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    font-family: 'Yusei Magic', sans-serif;
+    min-height: 100vh;
+    text-align: center;
+
+
+}
+
+#generic img{
+    border: 2px green solid;
+    box-shadow: 5px 5px 15px 5px #105f2a9a; 
+}
+
+#generic .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#generic h1{
+    font-size: 30px;
+    
+}
+
+#generic form{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#generic p{
+    font-size: 25px;
+    padding-top: 50px;
+}
+
+
+#generic .recipe{
+    border: 5px rgba(255, 0, 0, 0.178) solid;
+    background-color: rgba(128, 128, 128, 0.308);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin-bottom: 50px;
+
+}
+
+#generic input{
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    background-image :linear-gradient(315deg, #b8f7cd 0%, #e9e5b3 74%);
+    margin-right: 10px;
+}
+
+
+#generic button{
+    height: 40px;
+    border-radius: 10px;
+    background-color: #b8f7cd  ;
+    border: none;
+    transition: 0.5s;
+    font-weight: 800;
+}
+
+#generic button:hover{
+    
+    background-color: #e9e5b3   ;
+   
+}
+
+
