@@ -69,10 +69,59 @@ function Element() {
             </div>
             <hr className='my-5'/>
             <div className='row ele-sct-3'>
-                <div className='col-6'>
-                    <h1>yooo</h1>
-                    <h1>yooo</h1>
-                    <h1>yooo</h1>
+                <div className='col-6 mr-n5'>
+                    <h3 className="my-3">Elements</h3>
+                    <h4 className="my-3">Text</h4>
+                    <p className="mt-3">This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>enphasized</em>. This is <sup>superscript</sup> and this is <sub>subscript</sub> text. This is <u>underligned</u> and this is code : <code> (let i = 0)</code>  .</p> 
+
+                    <hr/>
+
+                    <h2 className="my-4">Heading Level 2</h2>
+                    <h3 className="my-4">Heading Level 2</h3>
+                    <h4 className="my-4">Heading Level 2</h4>
+                    <h5 className="my-4">Heading Level 2</h5>
+                    <h6 className="my-4">Heading Level 2</h6>
+
+                    <hr/>
+
+
+                </div>
+
+
+                <div className='col-6 pl-5' >
+                    <h3>Buttons</h3>
+                    <div>
+                        <button id='spe'>Special</button>
+                        <button id='def'>Default</button>
+                        <br/>
+                        <button id='big'>Big</button>
+                        <button id='def'>Default</button>
+                    </div>
+                    <h3>Form</h3>
+                    <div>
+                        <div className='d-flex  '>
+                            <input className='mr-4' placeholder='Name' type="text"/>
+                            <input  placeholder='Email'  type="email" name="" id=""/>
+                        </div>
+                        <div>
+                            <select className='mt-4' name="sel" id="sel">
+                                <option value="">-Select-</option>
+                                <option value="">Option 2</option>
+                                <option value="">Option 3</option>
+                                <option value="">Option 4</option>
+                            </select>
+                        </div>
+                        <div className='d-flex mt-4 align-items-center '>
+                            <label htmlFor="">Low</label>
+                            <input className='radio' type="radio" name="1" id=""/>
+                            <label htmlFor="">Urgent</label>
+
+                            <input className='radio' type="radio" name="1" id=""/>
+                            <label htmlFor="">Done</label>
+
+                            <input className='radio' type="radio" name="1" id=""/>
+                        </div>
+                    </div>
                 </div>
                 
                 
